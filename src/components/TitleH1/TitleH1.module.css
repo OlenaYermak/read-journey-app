@@ -1,0 +1,13 @@
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 0.94;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  max-width: 444px;
+  text-align: left;
+}
+
+.acсentColor {
+  color: #e3e3e380;
+}
