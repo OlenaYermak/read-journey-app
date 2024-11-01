@@ -4,6 +4,7 @@ import Logo from "./components/Logo/Logo.jsx";
 
 import "./App.css";
 import TitleH1 from "./components/TitleH1/TitleH1.jsx";
+import RegisterForm from "./components/RegisterForm/RegisterForm.jsx";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <div>
         <Logo />
         <TitleH1 />
+        <RegisterForm />
         {/* <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a> */}

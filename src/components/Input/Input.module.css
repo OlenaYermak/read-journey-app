@@ -1,0 +1,50 @@
+.input {
+  width: 472px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: var(--darkGray);
+  border: none;
+}
+
+.inputError {
+  border-color: var(--red);
+}
+
+.inputValid {
+  border-color: var(--green);
+}
+
+.input:hover,
+.input:focus {
+  border: 1px solid #f9f9f91a;
+  outline: none;
+}
+.label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.inputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input::placeholder {
+  color: var(--lightGray); /* Колір тексту плейсхолдера */
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  padding-left: 14px;
+}
